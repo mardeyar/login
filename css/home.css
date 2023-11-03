@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background: #c7c5c5;
+}
+
+header {
+    background: #9a9999;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.6);
+}
+
+header h1 {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 46px;
+}
+
+header a {
+    position: absolute;
+    top: 75px;
+    right: 20px;
+    font-family: 'Gadugi', sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    color: #4C5C68;
+}
+
+h3, h2 {
+    font-family: "Malgun Gothic", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+th {
+    padding: 10px;
+    background: #46494C;
+    text-align: left;
+    font-family: "Segoe UI", sans-serif;
+    border: 1px solid black;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    font-family: "Segoe UI", sans-serif;
+    border: 1px solid black;
+}
+
+tr:nth-child(odd) {
+    background: rgba(76, 92, 104, 0.7);
+}
+
+tr:nth-child(even) {
+    background: rgba(134, 161, 182, 0.7);
+}
+
+#logout {
+    text-decoration: none;
+    font-family: 'Gadugi', sans-serif;
+    font-weight: bold;
+    background-image: linear-gradient(to right top, #ff1c1c, #ff2020, #ff2423, #ff2727, #ff2a2a, #ff2f2e, #ff3333, #ff3737, #ff3d3d, #ff4343, #ff4948, #ff4e4e);
+    color: black;
+    margin: 50px;
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: 1px solid black;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.65);
+}
+
+/* Mobile screen design */
+@media only screen and (max-width: 440px) {
+
+    .container {
+        width: 80%;
+    }
+
+    tr {
+        font-size: 8pt;
+    }
+}

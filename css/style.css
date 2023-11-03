@@ -1,0 +1,78 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1559239115-ce3eb7cb87ea?auto=format&fit=crop&q=80&w=1988&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    height: calc(100vh - 160px);
+}
+
+h1 {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 46px;
+    color: #2c2c2c;
+}
+
+#info-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: 530px;
+    margin: 150px auto;
+    background-image: linear-gradient(to top, #ebe6e6, #e9e2e2, #e6dddd, #e4d9d9, #e1d5d5, #dfd3d3, #ded2d2, #dcd0d0, #dad0d0, #d8d1d1, #d6d1d1, #d4d1d1);
+    border: 2px solid #696969;
+    box-shadow: 0 10px 10px 0 rgba(61, 61, 61, 0.8);
+}
+
+.input-field {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-field input {
+    font-family: "Malgun Gothic", sans-serif;
+    width: 75%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+#submit-btn {
+    margin: 20px;
+    width: 50%;
+    background-image: linear-gradient(to right top, #ff1c1c, #ff2020, #ff2423, #ff2727, #ff2a2a, #ff2f2e, #ff3333, #ff3737, #ff3d3d, #ff4343, #ff4948, #ff4e4e);
+    border: none;
+    padding: 15px;
+    font-family: 'Gadugi', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+#submit-btn:hover {
+    cursor: pointer;
+}
+
+.login-direct {
+    margin: 20px;
+    font-family: "Leelawadee UI", sans-serif;
+}
+
+.login-direct a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+.error {
+    color: #ff0b0b;
+    font-family: 'Gadugi', sans-serif;
+}
+
+#submit-error {
+    color: #ff0b0b;
+    margin: 5px;
+    font-family: 'Gadugi', sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+}
