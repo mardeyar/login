@@ -53,7 +53,7 @@ Missing any one of these conditions will results in some of the following errors
 ![image](https://github.com/Fall2023-NSCC-ECampus/inet2005-assignment02-mardeyar/assets/117761940/4f005f7e-e3d8-4814-9ab8-1ce46d191585)<br><br>
 Once you've met the required criteria, your account will be created and you will be prompted to log in<br><br>
 ![image](https://github.com/Fall2023-NSCC-ECampus/inet2005-assignment02-mardeyar/assets/117761940/ec21caeb-6ea6-4d24-820e-92c23eeff6ff)
-![image](https://github.com/Fall2023-NSCC-ECampus/inet2005-assignment02-mardeyar/assets/117761940/1ef0607c-2344-4a6f-b9f5-4f0179ff8897)
+![image](https://github.com/Fall2023-NSCC-ECampus/inet2005-assignment02-mardeyar/assets/117761940/74517b8c-b56d-404b-9354-6d757f9eee00)
 ## Login
 For a successful login, you only need to enter valid credentials. Attempting to enter an invalid username or password combination will results in an error<br><br>
 ![image](https://github.com/Fall2023-NSCC-ECampus/inet2005-assignment02-mardeyar/assets/117761940/ded15103-74c3-45bd-bdd4-d2ed1e1edbee)<br>
