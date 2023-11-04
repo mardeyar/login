@@ -44,11 +44,15 @@ if (isset($_SESSION["user_id"])) {
 <body>
 
 <header>
-    <!-- Fetch the session username, display as variable. If nothing, display option to log in or register -->
+    <!-- Fetch the session username, display as variable -->
     <?php if (isset($user)): ?>
         <h2>Welcome back, <?= htmlspecialchars($user["username"]) ?>!</h2>
     <?php else: ?>
-        <p><a href="login.php">Log in</a> or <a href="register.php">register</a></p>
+    <!-- Send user to the landing page if not logged in -->
+        <?php
+        header("Location: landing.html");
+        exit;
+        ?>
     <?php endif; ?>
 </header>
 
