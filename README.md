@@ -34,7 +34,7 @@ Suggested to follow this convention but your use case may differ. Adjust accordi
 4. Run the project using XAMPP.
 ## Demonstration
 On the first visit, the user will be presented with the landing page prompting either a login or register response.<br><br>
-![image](https://github.com/Fall2023-NSCC-ECampus/inet2005-assignment02-mardeyar/assets/117761940/1f4912ba-517c-404a-b51d-f5ea3a9197d7)<br><br>
+![ScreenShot](https://github.com/mardeyar/login/blob/main/screenshots/1.png)<br><br>
 ## Registration
 ![image](https://github.com/Fall2023-NSCC-ECampus/inet2005-assignment02-mardeyar/assets/117761940/ee7ead63-d420-428e-9737-dd56b4aad7a2)<br><br>
 For successful registration, a few conditions will need to be met:<br>
