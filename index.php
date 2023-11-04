@@ -37,23 +37,23 @@ if (isset($_SESSION["user_id"])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
     <link rel="stylesheet" href="/css/home.css"/>
+    <link rel="icon" href="/images/icon.png">
+    <title>Home</title>
 </head>
 <body>
 
 <header>
-    <h1>FormStorm</h1>
+    <!-- Fetch the session username, display as variable. If nothing, display option to log in or register -->
+    <?php if (isset($user)): ?>
+        <h2>Welcome back, <?= htmlspecialchars($user["username"]) ?>!</h2>
+    <?php else: ?>
+        <p><a href="login.php">Log in</a> or <a href="register.php">register</a></p>
+    <?php endif; ?>
 </header>
 
 <!-- Table display that will list all users info within the DB -->
 <div class="container">
-    <!-- Fetch the session username, display as variable. If nothing, display option to log in or register -->
-    <?php if (isset($user)): ?>
-        <h3>Welcome back, <?= htmlspecialchars($user["username"]) ?>!</h3>
-    <?php else: ?>
-        <p><a href="login.php">Log in</a> or <a href="register.php">register</a></p>
-    <?php endif; ?>
 
     <?php if (!empty($users)): ?>
     <h2>Current Users</h2>
