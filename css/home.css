@@ -11,9 +11,11 @@ header {
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.6);
 }
 
-header h1 {
+header h2 {
     font-family: 'Segoe UI', sans-serif;
     font-size: 46px;
+    color: #2c2c2c;
+    padding: 15px;
 }
 
 header a {
@@ -26,8 +28,10 @@ header a {
     color: #4C5C68;
 }
 
-h3, h2 {
+h2 {
     font-family: "Malgun Gothic", sans-serif;
+    color: #1e1d1d;
+    padding: 20px;
 }
 
 .container {
@@ -41,7 +45,7 @@ h3, h2 {
 table {
     border-collapse: collapse;
     width: 100%;
-    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.7);
 }
 
 th {
