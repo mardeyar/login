@@ -45,6 +45,21 @@ body {
     border-radius: 50px;
 }
 
+#register-success {
+    font-family: 'Leelawadee UI', sans-serif;
+    font-size: 46px;
+    text-align: center;
+    color: #232323;
+    margin: 300px auto;
+}
+
+#register-success a {
+    font-family: 'Corbel', sans-serif;
+    font-size: 48px;
+    text-decoration: none;
+    color: #e5e1e1;
+}
+
 /* Mobile screen design */
 @media only screen and (max-width: 760px) {
 
