@@ -1,6 +1,8 @@
 body {
-    background-image: url("https://images.unsplash.com/photo-1559239115-ce3eb7cb87ea?auto=format&fit=crop&q=80&w=1988&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("/Assignment%202/images/background.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: calc(100vh - 160px);
 }
 
@@ -20,7 +22,7 @@ h1 {
     margin: 150px auto;
     background-image: linear-gradient(to top, #ebe6e6, #e9e2e2, #e6dddd, #e4d9d9, #e1d5d5, #dfd3d3, #ded2d2, #dcd0d0, #dad0d0, #d8d1d1, #d6d1d1, #d4d1d1);
     border: 2px solid #696969;
-    box-shadow: 0 10px 10px 0 rgba(61, 61, 61, 0.8);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0);
 }
 
 .input-field {
