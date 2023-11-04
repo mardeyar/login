@@ -36,7 +36,7 @@ Suggested to follow this convention but your use case may differ. Adjust accordi
 On the first visit, the user will be presented with the landing page prompting either a login or register response.<br><br>
 ![ScreenShot](https://github.com/mardeyar/login/blob/main/screenshots/1.png)<br><br>
 ## Registration
-![image](https://github.com/Fall2023-NSCC-ECampus/inet2005-assignment02-mardeyar/assets/117761940/ee7ead63-d420-428e-9737-dd56b4aad7a2)<br><br>
+![ScreenShot](https://github.com/mardeyar/login/blob/main/screenshots/2.png)<br><br>
 For successful registration, a few conditions will need to be met:<br>
 1. All fields must be filled out
 2. Username & email must be unique: no duplicates
@@ -45,20 +45,20 @@ For successful registration, a few conditions will need to be met:<br>
 
 Missing any one of these conditions will results in some of the following errors<br><br>
 #### Fields not filled out
-![image](https://github.com/Fall2023-NSCC-ECampus/inet2005-assignment02-mardeyar/assets/117761940/2014838b-baa4-4cbe-86a6-e81aecbd09e5)<br><br>
+![ScreenShot](https://github.com/mardeyar/login/blob/main/screenshots/3.png)<br><br>
 #### Duplicate email or username
-![image](https://github.com/Fall2023-NSCC-ECampus/inet2005-assignment02-mardeyar/assets/117761940/dbf81e39-d9da-435a-928f-815fd3b947f8)<br><br>
+![ScreenShot](https://github.com/mardeyar/login/blob/main/screenshots/4.png)<br><br>
 #### Passwords don't match or don't meet security criteria
-![image](https://github.com/Fall2023-NSCC-ECampus/inet2005-assignment02-mardeyar/assets/117761940/23ef0ba0-261a-48e0-a020-87f04d1c4274)
-![image](https://github.com/Fall2023-NSCC-ECampus/inet2005-assignment02-mardeyar/assets/117761940/4f005f7e-e3d8-4814-9ab8-1ce46d191585)<br><br>
+![ScreenShot](https://github.com/mardeyar/login/blob/main/screenshots/5.png)
+![ScreenShot](https://github.com/mardeyar/login/blob/main/screenshots/6.png)<br><br>
 Once you've met the required criteria, your account will be created and you will be prompted to log in<br><br>
-![image](https://github.com/Fall2023-NSCC-ECampus/inet2005-assignment02-mardeyar/assets/117761940/ec21caeb-6ea6-4d24-820e-92c23eeff6ff)
-![image](https://github.com/Fall2023-NSCC-ECampus/inet2005-assignment02-mardeyar/assets/117761940/74517b8c-b56d-404b-9354-6d757f9eee00)
+![ScreenShot](https://github.com/mardeyar/login/blob/main/screenshots/7.png)
+![ScreenShot](https://github.com/mardeyar/login/blob/main/screenshots/8.png)
 ## Login
 For a successful login, you only need to enter valid credentials. Attempting to enter an invalid username or password combination will results in an error<br><br>
-![image](https://github.com/Fall2023-NSCC-ECampus/inet2005-assignment02-mardeyar/assets/117761940/ded15103-74c3-45bd-bdd4-d2ed1e1edbee)<br><br>
+![ScreenShot](https://github.com/mardeyar/login/blob/main/screenshots/9.png)<br><br>
 Once logged in, you will see a running table of current active users within the database. Displayed in this table is a list of UserID, Username and Email associated with current active users. Click logout to terminate the session and go back to the landing page<br><br>
-![image](https://github.com/mardeyar/login/assets/117761940/3c80e420-be02-4504-9fa4-2e9f593c0ea9)<br><br>
+![ScreenShot](https://github.com/mardeyar/login/blob/main/screenshots/10.png)<br><br>
 **Note:** when attempting to visit index.php outside of a valid session, user will be automatically redirected to the landing page to prevent unauthorized access.
 ## License
 This project is licensed under the MIT License. See the [MIT License](https://opensource.org/licenses/MIT) for details.
